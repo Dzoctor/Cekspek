@@ -45,6 +45,10 @@ img {
   height: 50px;
 }
 
+i{
+   font-size: 3rem;
+}
+
 a {
   text-decoration: none;
   color: var(--secondary-color);
@@ -533,7 +537,7 @@ button:hover, .button a:hover, .button h1:hover, .button h2:hover, .button h3:ho
   font-size: 2rem;
 }
 
-img, .note, .phone, .description {
+img, i, .note, .phone, .description {
   margin: 0.5rem;
 }
 
