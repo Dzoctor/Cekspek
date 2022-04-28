@@ -1,8 +1,3 @@
-# src:
-1. icon.svg -> https://www.svgrepo.com/svg/324653/correct-checklist-list-document-extension-format-folder
-2. computer_setup.png -> https://unsplash.com/photos/9yp49VxqwCo
-3. whatsapp.png -> https://www.flaticon.com/premium-icon/whatsapp_4423697?term=whatsapp&page=1&position=35&page=1&position=35&related_id=4423697&origin=search
-
 # Computer marketplace using benchmarking feature - phase_1
 
 ## algo
@@ -11,24 +6,24 @@ user nyari komputer dari keyword -> user milih komputer pake filter -> user beli
 
 ## flow chart
 ### 1
-input -> game_keyword (just top games)
-process -> game_spec (min-max) -benchmark (realtime_test, 3d_mark, benchmark_comparasion)- pc_spec (cpu, gpu, ram)
-output -> pc_item (rating, possibility, recommendation)
+- input -> game_keyword (just top games)
+- process -> game_spec (min-max) -benchmark (realtime_test, 3d_mark, benchmark_comparasion)- pc_spec (cpu, gpu, ram)
+- output -> pc_item (rating, possibility, recommendation)
 
 ### 2
-input -> filter_keyword (condition, price, )
-process -> filter_keyword -check- pc_item
-output -> pc_item
+- input -> filter_keyword (condition, price, )
+- process -> filter_keyword -check- pc_item
+- output -> pc_item
 
 ### 3
-input -> buy_pc
-process -> buy_pc -request- pc_item
-output -> pc_item
+- input -> buy_pc
+- process -> buy_pc -request- pc_item
+- output -> pc_item
 
 ## pseudo-code
-varible : game_keyword, game_spec, pc_spec filter_keyword, buy_pc, pc_item
-function : benchmark, spec, request
-return : pc_item
+1. varible : game_keyword, game_spec, pc_spec filter_keyword, buy_pc, pc_item
+2. function : benchmark, spec, request
+3. return : pc_item
 
 # Computer marketplace using benchmarking feature - phase_2
 ## update
